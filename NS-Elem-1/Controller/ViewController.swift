@@ -48,10 +48,10 @@ class ViewController: UIViewController {
     }
     
     func askQuestion(){
-        randomNumA = Int.random(in: 100 ..< 10000)
+        randomNumA = Int.random(in: 12 ..< 249)*4
 
-        questionLabel.text = "\(randomNumA) X 11"
-        answerCorrect = randomNumA * 11
+        questionLabel.text = "\(randomNumA) X 25"
+        answerCorrect = randomNumA * 25
     }
     
     @IBAction func showBtn(_ sender: Any) {
